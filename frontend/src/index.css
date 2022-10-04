@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: pink;
+}
+.site-container {
+  min-height: 100vh;
+}
+
+.top {
+  background-color: #f0edb1;
+  padding: 0.2rem;
+}
+
+main {
+  padding: 2rem;
+  flex: 1;
+}
+
+main h1 {
+  color: pink;
+  padding: 1rem;
+  text-align: center;
+  font-size: 60px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.rating span {
+  color: #fc53ab;
+}
+
+.product {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0.0625em 1em,
+    rgba(0, 0, 0, 0.15) 0px 0.125em 1em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+  border-radius: 20px;
+}
+.product:hover {
+  box-shadow: pink 0px 0.0625em 1em, pink 0px 0.125em 1em,
+    pink 0px 0px 0px 1px inset;
+}
+.product img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.product-info {
+  padding: 1rem;
+}
+
+.btn {
+  background-color: pink;
+  border: none;
+}
+.btn:hover {
+  background-color: #fc53ab;
+  border: none;
+}
+
+.btn:focus {
+  background-color: #fc53ab;
+  box-shadow: none !important;
+  outline: 0;
+}
+
+.img-large {
+  max-width: 100%;
+}
+
+.img-thumbnail {
+  height: 80px;
+}
+
+h2 {
+  color: pink;
+  font-size: 50px;
+}
+
+/* footer */
+.footer-page {
+  background-color: #f0edb1;
+  display: block;
+}
+
+footer h1 {
+  color: #fc53ab;
+  font-size: 65px;
+  padding-bottom: 10vh;
+}
+footer svg {
+  display: block;
+}
+.social-media {
+  color: #fc53ab;
+  font-size: 25px;
+}
+
+/* Signin Screen */
+
+.small-container {
+  max-width: 600px;
+}
+
+/* Nav drop down */
+
+.nav-link {
+  color: pink;
+}
+
+.nav-link:hover {
+  color: #fc53ab;
+}
+.navbar-nav .show > .nav-link,
+.navbar-nav .nav-link.active {
+  color: #fc53ab;
+}
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #fc53ab;
+}
+
+.dropdown-item {
+  color: #212529;
+}
+
+.dropdown-item:hover {
+  color: #fff;
+  background-color: pink;
+}
+
+.navbar-expand .navbar-nav .dropdown-menu {
+  border-color: pink;
+}
+
+/* checkout steps */
+
+.checkout-steps > div {
+  border-bottom: 0.2rem solid pink;
+  color: pink;
+}
+.checkout-steps > div.active {
+  border-bottom: 0.2rem solid #fc53ab;
+  color: #fc53ab;
+}
+
+/* Payment method */
+
+.form-check-input:checked {
+  background-color: #fc53ab;
+  border-color: pink;
+}
+.form-check-input:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+  -webkit-appearance: none;
+}
